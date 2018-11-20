@@ -6,14 +6,14 @@ import click
 import random
 
 
-LEFT_SIDE_VOWELS = ['e', 'a', 'w']
-LEFT_SIDE_CONSONANTS = ['q', 'r', 't', 's', 'd', 'f', 'g', 'z', 'x', 'c', 'v']
+LEFT_SIDE_VOWELS = ['e', 'a']
+LEFT_SIDE_CONSONANTS = ['r', 't', 's', 'd', 'f', 'g', 'v', 'w']
 LEFT_SIDE_NUMBERS = ['1', '2', '3', '4', '5']
 #LEFT_SIDE_SPECIAL = ['!', '@', '#', '$', '%']
 
-RIGHT_SIDE_VOWELS = ['u', 'i', 'o', 'y']
-RIGHT_SIDE_CONSONANTS = ['p', 'h', 'j', 'k', 'l', 'b', 'n', 'm']
-RIGHT_SIDE_NUMBERS = ['6', '7', '8', '9', '0']
+RIGHT_SIDE_VOWELS = ['u', 'i', 'o']
+RIGHT_SIDE_CONSONANTS = ['p', 'h', 'j', 'k', 'l', 'n', 'y']
+RIGHT_SIDE_NUMBERS = ['7', '8', '9', '0']
 #LEFT_SIDE_SPECIAL = ['^', '&', '*', '-', '+']
 
 if __name__ == "__main__":
